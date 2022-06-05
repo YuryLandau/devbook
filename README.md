@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 First, make shure that the application is running at [http://localhost:3000](http://localhost:3000) using the command below.
 
+### `dev:server`
+
+Whatch port 9000, from where axios will get some data from the fake api.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -28,3 +32,10 @@ Launches Cypress test application.
 ### `npm run e2e`
 
 Launches the test runner, with Cypress, in the interactive watch mode.
+
+### Tecnologias
+* React
+* Jest
+* Cypress
+* Json Server - Fake Api
+* Axios

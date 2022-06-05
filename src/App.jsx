@@ -24,7 +24,7 @@ function App() {
   const RenderBookList = (props) => (
 
     props.books.map(book => (
-      <div className="book-item">
+      <div className="book-item" data-test="book-item">
         <Typography
           variant="h5"
           component="h5"
